@@ -1,0 +1,22 @@
+{
+  "name": "google_book_search_project",
+  "version": "1.0.0",
+  "description": "A website to use google book api to search books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anirudhda Vajpeyi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-session": "^2.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "google-books-search": "^0.3.1",
+    "mongoose": "^6.3.0",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0",
+    "request": "^2.88.2"
+  }
+}
