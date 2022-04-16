@@ -158,6 +158,7 @@ app.get("/logout", (req, res) => {
   res.redirect("/");
 })
 
-app.listen(5000, function(){
-  console.log("Server is up and running on port 5000");
+const port = process.env.port || 5000;
+app.listen(port, function(){
+  console.log("Server is up and running on port" + port);
 });
